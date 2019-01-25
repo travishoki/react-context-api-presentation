@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Title from './Title';
 
-const TitleHolder = ({
+const Container = ({
     title
 }) => (
     <Title title={title} />
 );
 
-TitleHolder.propTypes = {
+Container.propTypes = {
     title: PropTypes.string.isRequired,
 };
 
-export default TitleHolder;
+export default Container;

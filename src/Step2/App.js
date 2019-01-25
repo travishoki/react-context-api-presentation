@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TitleHolder from './TitleHolder';
+import Container from './Container';
 import { Provider } from './context';
 
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
                     title: this.state.title,
                 }}
             >
-                <TitleHolder />
+                <Container />
             </Provider>
         );
     }

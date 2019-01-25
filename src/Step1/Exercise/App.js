@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import TitleHolder from './TitleHolder';
+import React, { Component, Fragment } from 'react';
+import Container from './Container';
 
 class App extends Component {
     constructor(props) {
@@ -12,9 +12,10 @@ class App extends Component {
 
     render() {
         return (
-            <TitleHolder
-                title={this.state.title}
-            />
+            <Fragment>
+                <p className="step-title">Step 1 - Exercise</p>
+                <Container />
+            </Fragment>
         );
     }
 }

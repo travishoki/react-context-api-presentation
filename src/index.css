@@ -8,3 +8,8 @@ h1 {
     color: white;
     text-align: center;
 }
+
+.step-title {
+    color: white;
+    margin: 20px;
+}

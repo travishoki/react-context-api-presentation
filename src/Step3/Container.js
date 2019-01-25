@@ -1,8 +1,8 @@
 import React from 'react';
 import Title from './Title';
 
-const TitleHolder = () => (
+const Container = () => (
     <Title />
 );
 
-export default TitleHolder;
+export default Container;
