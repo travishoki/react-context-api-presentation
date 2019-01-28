@@ -13,5 +13,5 @@ You will also see any lint errors in the console.
 ### Excersizes
 Objective: Pass the title from the `App` to the `Title`
 Step 1: props
-Step 2: context api.
+Step 2: context api
 Step 3: map context to props

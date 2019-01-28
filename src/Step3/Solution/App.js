@@ -12,11 +12,13 @@ class App extends Component {
     }
 
     render() {
+        const context = {
+            title: this.state.title,
+        };
+
         return (
             <Provider
-                value={{
-                    title: this.state.title,
-                }}
+                value={context}
             >
                 <p className="step-title">Step 3 - Solution</p>
                 <Container />
