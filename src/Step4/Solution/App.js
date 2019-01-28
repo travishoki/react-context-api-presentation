@@ -1,6 +1,6 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import Container from './Container';
-// import { Provider } from './context';
+import { Provider } from './context';
 
 class App extends Component {
     constructor(props) {
@@ -21,14 +21,18 @@ class App extends Component {
     }
 
     render() {
+        const context = {
+            count: this.state.count,
+            onClickButton: this.onClickButton,
+        };
+
         return (
-            <Fragment>
+            <Provider
+                value={context}
+            >
                 <p className="step-title">Step 4 - Exercise</p>
-                <Container
-                    count={this.state.count}
-                    onClickButton={this.onClickButton}
-                />
-            </Fragment>
+                <Container />
+            </Provider>
         );
     }
 }
