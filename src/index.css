@@ -13,3 +13,11 @@ h1 {
     color: white;
     margin: 20px;
 }
+
+button {
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}

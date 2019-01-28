@@ -11,7 +11,7 @@ const Title = ({
 );
 
 Title.propTypes = {
-    title: PropTypes.bool,
+    title: PropTypes.string.isRequired,
 };
 
 const mapContextToProps = context => ({

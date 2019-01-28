@@ -7,6 +7,7 @@ const Container = () => (
 );
 
 // Container.propTypes = {
+// title: PropTypes.string.isRequired,
 // };
 
 export default Container;
