@@ -1,3 +1,8 @@
+# React Context API Presentation
+
+### Project code
+`git clone https://github.com/travishoki/react-context-api-presentation.git`
+
 ### Initialize
 `yarn`
 
@@ -11,7 +16,7 @@ The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 ### Exercises
-Step 1: Props
-Step 2: Context API
-Step 3: Map context to props
-Step 4: Refactor the app
+Step 1: Props<br>
+Step 2: Context API<br>
+Step 3: Map context to props<br>
+Step 4: Refactor the app<br>

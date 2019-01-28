@@ -30,7 +30,7 @@ class App extends Component {
             <Provider
                 value={context}
             >
-                <p className="step-title">Step 4 - Exercise</p>
+                <p className="step-title">Step 4 - Solution</p>
                 <Container />
             </Provider>
         );
