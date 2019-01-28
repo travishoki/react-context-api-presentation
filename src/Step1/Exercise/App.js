@@ -1,3 +1,8 @@
+/*
+Instructions:
+- Pass "title" to the <Container /> component via props
+---------------------------------------------------- */
+
 import React, { Component, Fragment } from 'react';
 import Container from './Container';
 

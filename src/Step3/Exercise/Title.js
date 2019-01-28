@@ -1,3 +1,8 @@
+/*
+Instructions:
+- Render "title" in the <h1 /> via mapContextToProps
+---------------------------------------------------- */
+
 import React from 'react';
 // import PropTypes from 'prop-types';
 // import deep from 'deep-get-set';
@@ -14,7 +19,7 @@ const Title = () => (
 );
 
 // Title.propTypes = {
-// title: PropTypes.string.isRequired,
+    // title: PropTypes.string.isRequired,
 // };
 
 export default Title;

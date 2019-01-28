@@ -1,3 +1,8 @@
+/*
+Instructions:
+- Pass "title" to the Provider
+---------------------------------------------------- */
+
 import React, { Component, Fragment } from 'react';
 import Container from './Container';
 // import { Provider } from './context';

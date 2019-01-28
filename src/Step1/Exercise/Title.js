@@ -1,3 +1,8 @@
+/*
+Instructions:
+- Render "title" in the <h1 /> via props
+---------------------------------------------------- */
+
 import React from 'react';
 // import PropTypes from 'prop-types';
 
@@ -6,7 +11,7 @@ const Title = () => (
 );
 
 // Title.propTypes = {
-// title: PropTypes.string.isRequired,
+    // title: PropTypes.string.isRequired,
 // };
 
 export default Title;

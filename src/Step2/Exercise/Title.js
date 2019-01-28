@@ -1,3 +1,8 @@
+/*
+Instructions:
+- Render "title" in the <h1 /> via Consumer
+---------------------------------------------------- */
+
 import React from 'react';
 // import { Consumer } from './context';
 
