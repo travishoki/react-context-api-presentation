@@ -1,7 +1,7 @@
 /*
 Instructions:
-- Render "count" in the button text via mapContextToProps
-- Connect "onClickButton" to the "onClick" event via mapContextToProps
+- Connect "count" via mapContextToProps
+- Connect "onClickButton" via mapContextToProps
 ---------------------------------------------------- */
 
 import React from 'react';

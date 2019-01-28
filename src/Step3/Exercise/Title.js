@@ -1,6 +1,6 @@
 /*
 Instructions:
-- Render "title" in the <h1 /> via mapContextToProps
+- Connect "title" via mapContextToProps
 ---------------------------------------------------- */
 
 import React from 'react';
