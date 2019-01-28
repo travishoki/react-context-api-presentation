@@ -18,6 +18,7 @@ class App extends Component {
                     title: this.state.title,
                 }}
             >
+                <p className="step-title">Step 2 - Solution</p>
                 <Container />
             </Provider>
         );

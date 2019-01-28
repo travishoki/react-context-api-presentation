@@ -1,12 +1,8 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+// import { Consumer } from './context';
 
 const Title = () => (
     <h1>Title Goes Here</h1>/* Add title here */
 );
-
-// Title.propTypes = {
-// title: PropTypes.bool,
-// };
 
 export default Title;

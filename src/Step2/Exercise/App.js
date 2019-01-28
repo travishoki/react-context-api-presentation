@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Container from './Container';
-import { Provider } from './context';
+// import { Provider } from './context';
 
 class App extends Component {
     constructor(props) {
@@ -13,13 +13,10 @@ class App extends Component {
 
     render() {
         return (
-            <Provider
-                value={{
-                    title: this.state.title,
-                }}
-            >
+            <Fragment>
+                <p className="step-title">Step 2 - Exercise</p>
                 <Container />
-            </Provider>
+            </Fragment>
         );
     }
 }
