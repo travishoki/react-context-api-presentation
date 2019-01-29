@@ -3,6 +3,10 @@
 ### Project code
 `git clone https://github.com/travishoki/react-context-api-presentation.git`
 
+### Node Version
+Will need to use Node 6 or higher
+`nvm use`
+
 ### Initialize
 `yarn`
 
